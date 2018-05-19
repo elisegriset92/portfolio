@@ -112,17 +112,14 @@ i {
   padding-top: 10vh;
   text-align: justify; }
 
+.thirdB a:hover {
+  background: transparent; }
+
 .thirdB .btn-success {
   display: inline-block;
   margin: 5vh 5vh; }
 
 .centerbtn {
   text-align: center; }
-
-.quo {
-  transition: transform .2s; }
-
-.quo:hover {
-  transform: bold; }
 
 /*# sourceMappingURL=style.css.map */
