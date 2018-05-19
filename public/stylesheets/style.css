@@ -1,30 +1,26 @@
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-}
-// nav
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
 ul {
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 10px;
-}
+  padding: 10px; }
+
 a {
   color: white;
   text-decoration: none;
-  border-radius: 3px;
-}
+  border-radius: 3px; }
 
 .active {
   background-color: white;
-  color: black;
-}
+  color: black; }
+
 a:hover {
   background-color: white;
   color: black;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 .nav-item {
-  padding: 0 15px;
-}
+  padding: 0 15px; }
 
 .navigation {
   height: 70px;
@@ -37,121 +33,96 @@ a:hover {
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 3px;
-  margin-top: 15px;
-}
+  margin-top: 15px; }
 
 .lkdn {
   background-image: url(../images/Linkedin.png);
   background-size: 100%;
   background-repeat: no-repeat;
   height: 33px;
-  transition: transform .2s;
-}
+  transition: transform .2s; }
 
-//
 .lkdn:hover {
-  transform: scale(1.2);
-}
-
-// first bloc
+  transform: scale(1.2); }
 
 .quote {
   font-family: 'Shadows Into Light', cursive;
   color: white;
   font-size: 8vh;
   padding-top: 40vh;
-  padding-left: 14vh;
-}
+  padding-left: 14vh; }
 
 .firstB {
-  background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),
-    url("../images/fabian-grohs-616504-unsplash.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%), url("../images/fabian-grohs-616504-unsplash.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 90vh;
-}
+  height: 90vh; }
 
 .look {
   font-size: 14px;
   letter-spacing: 3px;
   text-align: center;
   padding-top: 10vh;
-  transition: transform .2s;
-}
+  transition: transform .2s; }
 
 .look p:hover {
-  transform: scale(1.2);
-}
-
-// arrow down
+  transform: scale(1.2); }
 
 i {
   border: solid white;
   border-width: 0 3px 3px 0;
   display: inline-block;
-  padding: 3px;
-}
+  padding: 3px; }
 
 .look a:hover {
   background-color: transparent;
-  color: white;
-}
+  color: white; }
 
 .down {
   transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-}
+  -webkit-transform: rotate(45deg); }
 
-// second bloc
 .secondB {
   height: 50vh;
   padding-left: 10vh;
   padding-top: 10vh;
-  background-color: rgb(255, 204, 153);
-}
+  background-color: #ffcc99; }
 
 .card {
   position: initial;
-  background: transparent;
-}
+  background: transparent; }
 
 .col-sm {
-  position: initial;
-}
+  position: initial; }
+
 .card-title {
-  letter-spacing: 3px;
-}
+  letter-spacing: 3px; }
+
 .btn-success {
   background-color: purple;
   border: purple;
-  display: block;
-}
+  display: block; }
 
 .btn-success:hover {
-  background-color: plum;
-}
+  background-color: plum; }
 
-// thirdbloc
 .thirdB {
   height: 50vh;
   padding-left: 10vh;
   padding-top: 10vh;
-  text-align:justify;
-}
+  text-align: justify; }
 
 .thirdB .btn-success {
   display: inline-block;
-  margin: 5vh 5vh
-}
+  margin: 5vh 5vh; }
 
-.centerbtn{
-  text-align: center;
-}
+.centerbtn {
+  text-align: center; }
 
-.quo{
-  transition: transform .2s;
+.quo {
+  transition: transform .2s; }
 
-}
 .quo:hover {
-transform: bold;
-}
+  transform: bold; }
+
+/*# sourceMappingURL=style.css.map */
