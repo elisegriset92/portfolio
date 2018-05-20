@@ -12,10 +12,11 @@ a {
   border-radius: 3px;
 }
 
-.active {
-  background-color: white;
-  color: black;
-}
+// .active {
+//   background-color: white;
+//   color: black;
+// }
+
 a:hover {
   background-color: white;
   color: black;
@@ -66,9 +67,9 @@ a:hover {
 .firstB {
   background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),
     url("../images/fabian-grohs-616504-unsplash.jpg");
-  background-size: 100%;
   background-repeat: no-repeat;
-  height: 90vh;
+  background-size: cover;
+  height: 400%;
 }
 
 .look {
@@ -80,7 +81,7 @@ a:hover {
 }
 
 .look p:hover {
-  transform: scale(1.2);
+  transform: scale(1.6);
 }
 
 // arrow down
@@ -107,12 +108,18 @@ i {
   height: 50vh;
   padding-left: 10vh;
   padding-top: 10vh;
-  background-color: rgb(255, 204, 153);
+  // background-color: rgb(255, 204, 153);
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),
+    url("../images/joao-paulo-pereira-645791-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
 
 .card {
   position: initial;
   background: transparent;
+  border: 1px solid white;
 }
 
 .col-sm {
@@ -133,20 +140,46 @@ i {
 
 // thirdbloc
 .thirdB {
-  height: 50vh;
+  height: 70vh;
   padding-left: 10vh;
   padding-top: 10vh;
-  
-  text-align:justify;
+  background: linear-gradient(
+      rgba(65, 219, 240, 0.2)100%,
+      rgba(65, 219, 240, 0.2) 100%
+    ),
+    url("../images/matthew-kane-146076-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: justify;
 }
-
 
 .thirdB .btn-success {
   display: inline-block;
   margin: 5vh 5vh;
 }
+.thirdB a:hover {
+  background-color: transparent;
+}
 
-.centerbtn{
+.centerbtn {
   text-align: center;
 }
 
+// fourth bloc
+
+.fourthB {
+  height: 35vh;
+  padding-left: 10vh;
+  padding-top: 10vh;
+  // background-color: #ddbca2;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),
+    url("../images/mateo-mood-604691-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+h5 {
+  letter-spacing: 3px;
+}
