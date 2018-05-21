@@ -1,42 +1,51 @@
-<div class="firstB">
-  <div class="navigation">
-    <ul class="nav">
-      <li class="nav-item">
-        <a class="nav-link" href="#">hey</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#work">My Work</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#about">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#skills">Skills</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link lkdn" href="https://www.linkedin.com/in/elisegriset/">
-        </a>
-      </li>
+<div class="my-paroller" data-paroller-factor="-0.1" data-paroller-type="background" data-paroller-direction="vertical">
 
-    </ul>
+  <div id="my-element" class="firstB">
+    <div class="navigation">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">hey</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#work">My Work</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <div class="icon">
+          <li class="nav-item">
+            <a class="nav-link lkdn" href="https://www.linkedin.com/in/elisegriset/" target="_blank">
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link gith" href="https://github.com/elisegriset92" target="_blank">
+            </a>
+          </li>
+        </div>
+
+      </ul>
+    </div>
+
+    <div class="quote">
+      <p>Hey ! I'm Elise
+        <br>I build websites</p>
+    </div>
+
+    <div class="look">
+      <p>
+        <a href="#work"> Look what I've done so far
+          <br>
+          <br>
+          <i class="arrow down"></i>
+      </p>
+      </a>
+      <a id="work"></a>
+    </div>
+
   </div>
-
-  <div class="quote">
-    <p>Hey ! I'm Elise
-      <br>I build websites</p>
-  </div>
-
-  <div class="look">
-    <p>
-      <a href="#work"> Look what I've done so far
-        <br>
-        <br>
-        <i class="arrow down"></i>
-    </p>
-    </a>
-    <a id="work"></a>
-  </div>
-
 </div>
 
 
@@ -51,35 +60,52 @@
   <div class="container">
     <div class="row">
       <div class="col-sm">
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="../public/images/img/pro.jpg" />
+        <div class="card containers" style="width: 18rem;">
+          <img class="card-img-top" src="images/img/pro.jpg" />
+          <div class="overlay">
+            <div class="text">
+              <p>Game</p>
+              <p>Canvas, JS, jQuery</p>
+              <a href="https://elisegriset92.github.io/ironhack-project1/" target="_blank" class="btn btn-success">See website</a>
+            </div>
+          </div>
           <div class="card-body">
             <h5 class="card-title">Snake Game</h5>
             <p class="card-text">This is the 1st project due after 2 weeks coding.</p>
-            <a href="https://elisegriset92.github.io/ironhack-project1/
-" class="btn btn-success">See website</a>
           </div>
         </div>
       </div>
       <div class="col-sm">
 
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="../public/images/img/pro2.jpg" />
+        <div class="card containers" style="width: 18rem;">
+          <img class="card-img-top" src="images/img/pro2.jpg" />
+          <div class="overlay">
+            <div class="text">
+              <p>CRUD app</p>
+              <p>MongoDB, Google Map's API, Express, Node.JS</p>
+              <a href="http://what-the-q.herokuapp.com" target="_blank" class="btn btn-success">See website</a>
+            </div>
+          </div>
           <div class="card-body">
             <h5 class="card-title">What the Q</h5>
             <p class="card-text">This is the 2nd project due after 1 month coding.</p>
-            <a href="http://what-the-q.herokuapp.com" class="btn btn-success">See website</a>
           </div>
         </div>
       </div>
       <div class="col-sm">
 
-        <div class="card" style="width: 18rem;">
-          <img class="card-img-top" src="public/images/img/pro3.jpg">
+        <div class="card containers" style="width: 18rem;">
+          <img class="card-img-top" src="images/img/pro3.jpg">
+          <div class="overlay">
+            <div class="text">
+              <p>MEAN STACK app</p>
+              <p>API's, Angular4</p>
+              <a href="http://ask-billise.co" target="_blank" class="btn btn-success">See website</a>
+            </div>
+          </div>
           <div class="card-body">
             <h5 class="card-title">Ask Billise</h5>
             <p class="card-text">This is the last project of my 9 weeks coding bootcamp.</p>
-            <a href="http://ask-billise.co" class="btn btn-success">See website</a>
           </div>
         </div>
       </div>
@@ -95,7 +121,7 @@
   <h5>
     About me
   </h5>
-  <div class="container">
+  <div class="container elise">
     <div class="row">
       <div class="col-sm">
 
@@ -121,8 +147,8 @@
           </a>
         </div>
       </div>
-      <div class="col-sm">
-        <img src="public/images/img/elise" alt="bla" /> </div>
+      <div class="col-sm elise">
+        <img src="images/img/elise.jpeg" width="200px" alt="bla"> </div>
     </div>
   </div>
   <a id="skills"></a>
@@ -145,12 +171,24 @@
       </div>
       <div class="col-sm">
         <h5>Libraries</h5>
-        <p>jQuery, MongoDB, Mongoose, APIs, Heroku, Cloudinary, GitHub, Bootstrap, Bulma
-        </p>
+        <p>jQuery, APIs, Bootstrap, Bulma</p>
       </div>
       <div class="col-sm">
         <h5>Frameworks</h5>
-        <p>Express.js, Angular 4, Node.js</p>
+        <p>Express.js, Mongoose, Angular4</p>
+      </div>
+      <div class="col-sm">
+        <h5>Runtimes </h5>
+        <p>Node.js</p>
+      </div>
+      <div class="col-sm">
+        <h5>Databases</h5>
+        <p>MongoDB</p>
+      </div>
+      <div class="col-sm">
+        <h5>Other Dev Tools</h5>
+        <p>GitHub, Trello, Heroku, Cloudinary</p>
       </div>
     </div>
   </div>
+</div>

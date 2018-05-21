@@ -39,8 +39,13 @@ a:hover {
   font-weight: 500;
   letter-spacing: 3px;
   margin-top: 15px;
+  z-index: 9;
 }
 
+.icon {
+  display: flex;
+  padding-left: 90%;
+}
 .lkdn {
   background-image: url(../images/Linkedin.png);
   background-size: 100%;
@@ -49,8 +54,20 @@ a:hover {
   transition: transform .2s;
 }
 
+.gith {
+  background-image: url(../images/git.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 33px;
+  transition: transform .2s;
+}
+
 //
 .lkdn:hover {
+  transform: scale(1.2);
+}
+
+.gith:hover {
   transform: scale(1.2);
 }
 
@@ -105,15 +122,20 @@ i {
 
 // second bloc
 .secondB {
-  height: 50vh;
+  height: 100%;
   padding-left: 10vh;
   padding-top: 10vh;
+  padding-bottom: 10vh;
   // background-color: rgb(255, 204, 153);
   background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),
     url("../images/joao-paulo-pereira-645791-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+}
+
+.elise {
+  text-align-last: center;
 }
 
 .card {
@@ -140,7 +162,7 @@ i {
 
 // thirdbloc
 .thirdB {
-  height: 70vh;
+  height: 170%;
   padding-left: 10vh;
   padding-top: 10vh;
   background: linear-gradient(
@@ -169,11 +191,11 @@ i {
 // fourth bloc
 
 .fourthB {
-  height: 35vh;
+  height: 150%;
   padding-left: 10vh;
   padding-top: 10vh;
   // background-color: #ddbca2;
-  background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),
+  background: linear-gradient(rgba(0, 0, 0, 0.7) 100%, rgba(0, 0, 0, 0.5)100%),
     url("../images/mateo-mood-604691-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -182,4 +204,50 @@ i {
 
 h5 {
   letter-spacing: 3px;
+}
+
+.resume  a:hover {
+  color: black;
+  background-color: white;
+}
+
+.resume a {
+  color: black;
+  text-align: initial;
+}
+
+.resume {
+  text-align: center;
+  background-image: url("../images/rawpixel-577482-unsplash.jpg");
+}
+.containers {
+  position: relative;
+  width: 18rem;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  overflow: hidden;
+  width: 18rem;
+  height: 0;
+  transition: .5s ease;
+}
+
+.containers:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
 }
