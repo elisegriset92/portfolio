@@ -10,9 +10,6 @@ $ (document).ready (function () {
   console.log ('ready!');
 });
 
-// initialize paroller.js
-$ ('[data-paroller-factor]').paroller ({
-  factor: '0.5',
-  type: 'foreground',
-  direction: 'horizontal',
+window.scroll ({
+  behavior: 'smooth',
 });

@@ -1,6 +1,7 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
+
 // nav
 ul {
   background-color: rgba(0, 0, 0, 0.8);
@@ -12,10 +13,10 @@ a {
   border-radius: 3px;
 }
 
-// .active {
-//   background-color: white;
-//   color: black;
-// }
+.active {
+  background-color: white;
+  color: black;
+}
 
 a:hover {
   background-color: white;

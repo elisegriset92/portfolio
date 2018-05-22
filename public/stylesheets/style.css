@@ -10,6 +10,10 @@ a {
   text-decoration: none;
   border-radius: 3px; }
 
+.active {
+  background-color: white;
+  color: black; }
+
 a:hover {
   background-color: white;
   color: black;
