@@ -205,4 +205,12 @@ h5 {
   -ms-transform: translate(-50%, -50%);
   text-align: center; }
 
+.footer {
+  height: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 7px; }
+
 /*# sourceMappingURL=style.css.map */
