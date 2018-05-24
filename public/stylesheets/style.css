@@ -165,18 +165,6 @@ i {
 h5 {
   letter-spacing: 3px; }
 
-.resume a:hover {
-  color: black;
-  background-color: white; }
-
-.resume a {
-  color: black;
-  text-align: initial; }
-
-.resume {
-  text-align: center;
-  background-image: url("../images/rawpixel-577482-unsplash.jpg"); }
-
 .containers {
   position: relative;
   width: 18rem; }
@@ -212,5 +200,29 @@ h5 {
   text-align: center;
   margin: 0 auto;
   padding-top: 7px; }
+
+.resume a:hover {
+  color: black;
+  background-color: white; }
+
+.resume a {
+  color: black;
+  text-align: initial; }
+
+.resume {
+  text-align: center;
+  background-image: url("../images/rawpixel-577482-unsplash.jpg"); }
+
+.about-snake {
+  background-image: url("../images/back.jpg");
+  height: 100vh; }
+
+.about-snake h5:hover {
+  background-color: white; }
+
+.text-snake {
+  margin-top: 10vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */
