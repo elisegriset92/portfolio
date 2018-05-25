@@ -42,11 +42,9 @@ a:hover {
   margin-top: 15px;
   z-index: 9;
 }
-
-// .icon {
-//   display: flex;
-//   padding-left: 90%;
-// }
+.vide {
+  padding-left: 105vh;
+}
 .lkdn {
   // background-image: url(../images/Linkedin.png);
   // background-size: 100%;
@@ -57,9 +55,9 @@ a:hover {
 }
 
 .gith {
-  background-image: url(../images/git.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
+  // background-image: url(../images/git.png);
+  // background-size: 100%;
+  // background-repeat: no-repeat;
   height: 33px;
   transition: transform .2s;
 }

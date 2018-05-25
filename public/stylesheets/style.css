@@ -36,14 +36,14 @@ a:hover {
   margin-top: 15px;
   z-index: 9; }
 
+.vide {
+  padding-left: 105vh; }
+
 .lkdn {
   height: 33px;
   transition: transform .2s; }
 
 .gith {
-  background-image: url(../images/git.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
   height: 33px;
   transition: transform .2s; }
 
