@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  background-color: white;
+  background-color: rgb(228, 187, 6);
   color: black;
   text-decoration: none;
 }
@@ -43,16 +43,17 @@ a:hover {
   z-index: 9;
 }
 
-.icon {
-  display: flex;
-  padding-left: 90%;
-}
+// .icon {
+//   display: flex;
+//   padding-left: 90%;
+// }
 .lkdn {
-  background-image: url(../images/Linkedin.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
+  // background-image: url(../images/Linkedin.png);
+  // background-size: 100%;
+  // background-repeat: no-repeat;
   height: 33px;
   transition: transform .2s;
+  // margin-left: 80vw;
 }
 
 .gith {
@@ -106,10 +107,10 @@ a:hover {
 // arrow down
 
 i {
-  border: solid white;
-  border-width: 0 3px 3px 0;
+  border: solid rgb(228, 187, 6);
+  border-width: 0 5px 5px 0;
   display: inline-block;
-  padding: 3px;
+  padding: 8px;
 }
 
 .look a:hover {
@@ -128,13 +129,10 @@ i {
   padding-left: 10vh;
   padding-top: 10vh;
   padding-bottom: 10vh;
-  // background-color: rgb(255, 204, 153);
-  background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),
-    url("../images/joao-paulo-pereira-645791-unsplash.jpg");
+  background-color: rgba(0, 0, 0, 0.9);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-
   color: white;
 }
 
@@ -155,27 +153,29 @@ i {
   letter-spacing: 3px;
 }
 .btn-success {
-  background-color: purple;
-  border: purple;
+  background-color: rgb(228, 187, 6);
+  border: rgb(228, 187, 6);
   display: block;
+  color: black;
 }
 
 .btn-success:hover {
-  background-color: plum;
+  background-color: rgb(243, 230, 42);
+  color: black;
 }
 
 // thirdbloc
 .thirdB {
-  height: 170%;
+  height: 200%;
   padding-left: 10vh;
   padding-top: 10vh;
-  background: linear-gradient(
-      rgba(65, 219, 240, 0.2)100%,
-      rgba(65, 219, 240, 0.2) 100%
-    ),
-    url("../images/matthew-kane-146076-unsplash.jpg");
+  padding-bottom: 10vh;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5)100%),
+    url("../images/joao-paulo-pereira-645791-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   color: white;
   text-align: justify;
   width: 100%;
@@ -196,15 +196,16 @@ i {
 // fourth bloc
 
 .fourthB {
-  height: 150%;
+  height: 200%;
   padding-left: 10vh;
   padding-top: 10vh;
-  // background-color: #ddbca2;
-  background: linear-gradient(rgba(0, 0, 0, 0.7) 100%, rgba(0, 0, 0, 0.5)100%),
-    url("../images/mateo-mood-604691-unsplash.jpg");
+  background-color: rgb(228, 187, 6);
+  color: black;
+
+  padding-bottom: 20vh;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  // color: white;
   width: 100%;
 }
 
@@ -268,6 +269,13 @@ h5 {
 .resume {
   text-align: center;
   background-image: url("../images/rawpixel-577482-unsplash.jpg");
+}
+.resume h5 {
+  color: black;
+}
+.resume h5:hover {
+  background-color: black;
+  color: white;
 }
 
 // about snake

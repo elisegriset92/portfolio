@@ -15,7 +15,7 @@ a {
   color: black; }
 
 a:hover {
-  background-color: white;
+  background-color: #e4bb06;
   color: black;
   text-decoration: none; }
 
@@ -36,14 +36,7 @@ a:hover {
   margin-top: 15px;
   z-index: 9; }
 
-.icon {
-  display: flex;
-  padding-left: 90%; }
-
 .lkdn {
-  background-image: url(../images/Linkedin.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
   height: 33px;
   transition: transform .2s; }
 
@@ -85,10 +78,10 @@ a:hover {
   transform: scale(1.6); }
 
 i {
-  border: solid white;
-  border-width: 0 3px 3px 0;
+  border: solid #e4bb06;
+  border-width: 0 5px 5px 0;
   display: inline-block;
-  padding: 3px; }
+  padding: 8px; }
 
 .look a:hover {
   background-color: transparent;
@@ -103,7 +96,7 @@ i {
   padding-left: 10vh;
   padding-top: 10vh;
   padding-bottom: 10vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%), url("../images/joao-paulo-pereira-645791-unsplash.jpg");
+  background-color: rgba(0, 0, 0, 0.9);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -124,20 +117,24 @@ i {
   letter-spacing: 3px; }
 
 .btn-success {
-  background-color: purple;
-  border: purple;
-  display: block; }
+  background-color: #e4bb06;
+  border: #e4bb06;
+  display: block;
+  color: black; }
 
 .btn-success:hover {
-  background-color: plum; }
+  background-color: #f3e62a;
+  color: black; }
 
 .thirdB {
-  height: 170%;
+  height: 200%;
   padding-left: 10vh;
   padding-top: 10vh;
-  background: linear-gradient(rgba(65, 219, 240, 0.2) 100%, rgba(65, 219, 240, 0.2) 100%), url("../images/matthew-kane-146076-unsplash.jpg");
+  padding-bottom: 10vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%), url("../images/joao-paulo-pereira-645791-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   color: white;
   text-align: justify;
   width: 100%; }
@@ -153,13 +150,14 @@ i {
   text-align: center; }
 
 .fourthB {
-  height: 150%;
+  height: 200%;
   padding-left: 10vh;
   padding-top: 10vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.7) 100%, rgba(0, 0, 0, 0.5) 100%), url("../images/mateo-mood-604691-unsplash.jpg");
+  background-color: #e4bb06;
+  color: black;
+  padding-bottom: 20vh;
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
   width: 100%; }
 
 h5 {
@@ -212,6 +210,13 @@ h5 {
 .resume {
   text-align: center;
   background-image: url("../images/rawpixel-577482-unsplash.jpg"); }
+
+.resume h5 {
+  color: black; }
+
+.resume h5:hover {
+  background-color: black;
+  color: white; }
 
 .about-snake {
   background-image: url("../images/back.jpg");
