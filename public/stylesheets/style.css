@@ -99,8 +99,8 @@ i {
   letter-spacing: 3px;
   text-align: center;
   padding-top: 10vh;
-  padding-bottom: 10vh;
   transition: transform .2s;
+  padding-bottom: 10vh;
 }
 
 .look:hover {
