@@ -1,26 +1,32 @@
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
 
 ul {
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 10px; }
+  padding: 10px;
+}
 
 a {
   color: white;
   text-decoration: none;
-  border-radius: 3px; }
+  border-radius: 3px;
+}
 
 .active {
   background-color: white;
-  color: black; }
+  color: black;
+}
 
 a:hover {
   background-color: #e4bb06;
   color: black;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .nav-item {
-  padding: 0 15px; }
+  padding: 0 15px;
+}
 
 .navigation {
   height: 70px;
@@ -34,62 +40,77 @@ a:hover {
   font-weight: 500;
   letter-spacing: 3px;
   margin-top: 15px;
-  z-index: 9; }
+  z-index: 9;
+}
 
 .vide {
-  padding-left: 105vh; }
+  padding-left: 105vh;
+}
 
 .lkdn {
   height: 33px;
-  transition: transform .2s; }
+  transition: transform .2s;
+}
 
 .gith {
   height: 33px;
-  transition: transform .2s; }
+  transition: transform .2s;
+}
 
 .lkdn:hover {
-  transform: scale(1.2); }
+  transform: scale(1.2);
+}
 
 .gith:hover {
-  transform: scale(1.2); }
+  transform: scale(1.2);
+}
 
 .quote {
   font-family: 'Shadows Into Light', cursive;
   color: white;
   font-size: 8vh;
   padding-top: 40vh;
-  padding-left: 14vh; }
+  padding-left: 14vh;
+}
 
 .firstB {
-  background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%), url("../images/fabian-grohs-616504-unsplash.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),
+    url("../images/fabian-grohs-616504-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 400%;
-  width: 100%; }
+  width: 100%;
+}
 
 .look {
   font-size: 14px;
   letter-spacing: 3px;
   text-align: center;
   padding-top: 10vh;
-  transition: transform .2s; }
+  padding-bottom: 10vh;
+  transition: transform .2s;
+}
 
-.look p:hover {
-  transform: scale(1.6); }
+.look:hover {
+  transform: scale(1.3);
+}
 
 i {
   border: solid #e4bb06;
   border-width: 0 5px 5px 0;
   display: inline-block;
-  padding: 8px; }
+  padding: 8px;
+}
 
 .look a:hover {
   background-color: transparent;
-  color: white; }
+  color: white;
+}
 
 .down {
   transform: rotate(45deg);
-  -webkit-transform: rotate(45deg); }
+  -webkit-transform: rotate(45deg);
+}
 
 .secondB {
   height: 100%;
@@ -100,54 +121,66 @@ i {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  color: white; }
+  color: white;
+}
 
 .elise {
-  text-align-last: center; }
+  text-align-last: center;
+}
 
 .card {
   position: initial;
   background: transparent;
-  border: 1px solid white; }
+  border: 1px solid white;
+}
 
 .col-sm {
-  position: initial; }
+  position: initial;
+}
 
 .card-title {
-  letter-spacing: 3px; }
+  letter-spacing: 3px;
+}
 
 .btn-success {
   background-color: #e4bb06;
   border: #e4bb06;
   display: block;
-  color: black; }
+  color: black;
+}
 
 .btn-success:hover {
   background-color: #f3e62a;
-  color: black; }
+  color: black;
+}
 
 .thirdB {
   height: 200%;
   padding-left: 10vh;
   padding-top: 10vh;
   padding-bottom: 10vh;
-  background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%), url("../images/joao-paulo-pereira-645791-unsplash.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%),
+    url("../images/joao-paulo-pereira-645791-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   color: white;
   text-align: justify;
-  width: 100%; }
+  width: 100%;
+}
 
 .thirdB .btn-success {
   display: inline-block;
-  margin: 5vh 5vh; }
+  margin: 5vh 5vh;
+}
 
 .thirdB a:hover {
-  background-color: transparent; }
+  background-color: transparent;
+}
 
 .centerbtn {
-  text-align: center; }
+  text-align: center;
+}
 
 .fourthB {
   height: 200%;
@@ -158,14 +191,17 @@ i {
   padding-bottom: 20vh;
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%; }
+  width: 100%;
+}
 
 h5 {
-  letter-spacing: 3px; }
+  letter-spacing: 3px;
+}
 
 .containers {
   position: relative;
-  width: 18rem; }
+  width: 18rem;
+}
 
 .overlay {
   position: absolute;
@@ -176,10 +212,12 @@ h5 {
   overflow: hidden;
   width: 18rem;
   height: 0;
-  transition: .5s ease; }
+  transition: .5s ease;
+}
 
 .containers:hover .overlay {
-  height: 100%; }
+  height: 100%;
+}
 
 .text {
   color: white;
@@ -189,7 +227,8 @@ h5 {
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  text-align: center; }
+  text-align: center;
+}
 
 .footer {
   height: 100%;
@@ -197,26 +236,32 @@ h5 {
   color: white;
   text-align: center;
   margin: 0 auto;
-  padding-top: 7px; }
+  padding-top: 7px;
+}
 
 .resume a:hover {
   color: black;
-  background-color: white; }
+  background-color: white;
+}
 
 .resume a {
   color: black;
-  text-align: initial; }
+  text-align: initial;
+}
 
 .resume {
   text-align: center;
-  background-image: url("../images/rawpixel-577482-unsplash.jpg"); }
+  background-image: url("../images/rawpixel-577482-unsplash.jpg");
+}
 
 .resume h5 {
-  color: black; }
+  color: black;
+}
 
 .resume h5:hover {
   background-color: black;
-  color: white; }
+  color: white;
+}
 
 .cv {
   background: #e4bb06;
@@ -228,11 +273,13 @@ h5 {
   padding: 0 2em;
   cursor: pointer;
   transition: 800ms ease all;
-  outline: none; }
+  outline: none;
+}
 
 .cv:hover {
   background: #fff;
-  color: black; }
+  color: black;
+}
 
 .cv:before,
 .cv:after {
@@ -244,29 +291,35 @@ h5 {
   width: 0;
   background: #e4bb06;
   color: black;
-  transition: 400ms ease all; }
+  transition: 400ms ease all;
+}
 
 .cv:after {
   right: inherit;
   top: inherit;
   left: 0;
-  bottom: 0; }
+  bottom: 0;
+}
 
 .cv:hover:before,
 .cv:hover:after {
   width: 100%;
-  transition: 800ms ease all; }
+  transition: 800ms ease all;
+}
 
 .about-snake {
   background-image: url("../images/back.jpg");
-  height: 100vh; }
+  height: 100vh;
+}
 
 .about-snake h5:hover {
-  background-color: white; }
+  background-color: white;
+}
 
 .text-snake {
   margin-top: 10vh;
   background-color: rgba(0, 0, 0, 0.7);
-  color: white; }
+  color: white;
+}
 
 /*# sourceMappingURL=style.css.map */
