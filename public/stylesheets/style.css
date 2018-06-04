@@ -88,10 +88,16 @@ a:hover {
   padding-top: 10vh;
   padding-bottom: 5vh;
   transition: transform .2s;
+  transform: scale();
 }
 
 .look:hover {
   transform: scale(1.2);
+}
+
+.look a:hover {
+  background-color: transparent;
+  color: white;
 }
 
 i {
@@ -101,7 +107,7 @@ i {
   padding: 8px;
 }
 
-.look a:hover {
+.look:hover {
   background-color: transparent;
   color: white;
 }
